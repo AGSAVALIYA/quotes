@@ -1,0 +1,16 @@
+.github{
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+}
+.github button{
+    background: rgba(36, 58, 253, 0.87);
+    padding: 10px;
+    border-top-left-radius: 50% ;
+    border-bottom-left-radius: 50%;
+    border-left: 4px solid aqua;
+    border-top: 4px solid aqua;
+    border-bottom: 4px solid aqua;
+    color: #fff;
+    font-size: 1.5em;
+}
