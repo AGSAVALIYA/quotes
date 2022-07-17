@@ -11,7 +11,7 @@ function App() {
     fetch('https://api.allorigins.win/get?url=https://nodejs-quoteapp.herokuapp.com/quote')
     .then(res => res.json())
     .then(data => {
-      setQuote(data.quote);
+      setQuote(data.contents.quote);
     }
     )
     .catch(err => console.log(err));
