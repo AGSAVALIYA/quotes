@@ -8,7 +8,7 @@ function App() {
   
   const fetchQuote = () => {
    //fetch with axios headers
-    fetch('https://cors-anywhere.herokuapp.com/https://nodejs-quoteapp.herokuapp.com/quote')
+    fetch('http://www.whateverorigin.org/get?url=https://nodejs-quoteapp.herokuapp.com/quote')
     .then(res => res.json())
     .then(data => {
       setQuote(data.quote);
