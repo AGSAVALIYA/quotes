@@ -11,7 +11,7 @@ function App() {
     fetch('https://corsproxy.io/?https://nodejs-quoteapp.herokuapp.com/quote')
     .then(res => res.json())
     .then(data => {
-      setQuote(data.contents.quote);
+      setQuote(data.quote);
     }
     )
     .catch(err => console.log(err));
