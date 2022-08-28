@@ -10,7 +10,7 @@ const Links = () => {
     return(
        <div>
          <div className="github">
-            <button onClick={openLink}>:)   </button>
+            <button onClick={openLink}>:)</button>
          </div>
        </div>
     )
